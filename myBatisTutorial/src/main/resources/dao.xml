@@ -2,14 +2,14 @@
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 	
-<mapper namespace = "Studente">	
+<mapper namespace = "myBatisTutorial.Studente">	
 
-   <resultMap id = "result" type = "Studente">
+   <resultMap id = "result" type = "myBatisTutorial.Studente">
       <result property = "id" column = "ID"/>	    
    </resultMap>
 	
    <select id = "getAll" resultMap = "result">
-      SELECT * FROM STUDENTE; 
+      SELECT * FROM STUDENTE;
    </select>
     
 <!--    <select id = "getById" parameterType = "int" resultMap = "result"> -->

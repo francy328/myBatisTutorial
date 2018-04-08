@@ -12,7 +12,7 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 public class mybatisRead_ALL {
 	 public static void main(String args[]) throws IOException{
 
-	      Reader reader = Resources.getResourceAsReader("SqlMapConfig.xml");
+	      Reader reader = Resources.getResourceAsReader("configuration.xml");
 	      SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(reader);		
 	      SqlSession session = sqlSessionFactory.openSession();
 	      
