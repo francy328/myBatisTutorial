@@ -9,7 +9,7 @@
    </resultMap>
 	
    <select id = "getAll" resultMap = "result">
-      SELECT * FROM STUDENTE;
+      SELECT * FROM STUDENTE
    </select>
     
 <!--    <select id = "getById" parameterType = "int" resultMap = "result"> -->

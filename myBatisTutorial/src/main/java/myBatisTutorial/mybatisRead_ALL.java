@@ -17,7 +17,7 @@ public class mybatisRead_ALL {
 	      SqlSession session = sqlSessionFactory.openSession();
 	      
 	      //select contact all contacts		
-	      List<Studente> student = session.selectList("Studente.getAll");
+	      List<Studente> student = session.selectList("getAll");
 	          
 	      for(Studente st : student ){    	  
 	         System.out.println(st.getId());
