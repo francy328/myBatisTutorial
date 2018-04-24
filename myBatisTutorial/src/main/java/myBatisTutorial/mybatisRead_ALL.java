@@ -25,7 +25,8 @@ public class mybatisRead_ALL {
 	         System.out.println(st.getCognome());   
 	      }  
 			
-	      System.out.println("Records Read Successfully ");          
+	      System.out.println("Records Read Successfully ");  
+	      //im going to loose patience veramente
 	      session.commit();   
 	      session.close();			
 	   }
