@@ -26,7 +26,7 @@ public class mybatisRead_ALL {
 	      }  
 			
 	      System.out.println("Records Read Successfully ");  
-	      //im going to loose patience veramente
+	      //im going to loose patience veramente veramente
 	      session.commit();   
 	      session.close();			
 	   }
